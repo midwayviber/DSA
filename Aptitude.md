@@ -148,3 +148,6 @@ The average (or mean) of a set of numbers is the sum of all the numbers divided 
   - Number of terms = 4
   - Average = \( \frac{28}{4} = 7 \)
 
+---
+
+These notes should help you cover all the key points for your test! Good luck!
