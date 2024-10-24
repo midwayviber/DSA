@@ -150,4 +150,148 @@ The average (or mean) of a set of numbers is the sum of all the numbers divided 
 
 ---
 
-These notes should help you cover all the key points for your test! Good luck!
+# Number System MCQ Questions
+
+### Q1. The number which when divided by 7, 11, and 13 leaves a remainder of 5 in each case is:
+- A) 998
+- B) 959
+- C) 960
+- D) 945  
+**Answer**: B) 959
+
+### Q2. What is the least number which when divided by 4, 6, 8, 12, and 16 leaves a remainder of 2 in each case?
+- A) 48
+- B) 50
+- C) 46
+- D) 58  
+**Answer**: B) 50
+
+### Q3. Find the largest number which divides 62, 132, and 237 leaving remainders 2, 3, and 4 respectively.
+- A) 10
+- B) 15
+- C) 25
+- D) 35  
+**Answer**: A) 10
+
+### Q4. A two-digit number is such that the product of its digits is 18. If 63 is added to the number, the digits interchange their places. What is the number?
+- A) 26
+- B) 36
+- C) 63
+- D) 72  
+**Answer**: B) 36
+
+### Q5. The number 7254*98 is divisible by 11. Find the missing digit.
+- A) 3
+- B) 4
+- C) 7
+- D) 6  
+**Answer**: D) 6
+
+### Q6. The smallest number which when increased by 5 is completely divisible by 8, 12, and 15 is:
+- A) 115
+- B) 120
+- C) 235
+- D) 240  
+**Answer**: A) 115
+
+### Q7. A number when divided by 12 leaves a remainder of 5. If the same number is divided by 8, the remainder is 1. What is the number?
+- A) 17
+- B) 25
+- C) 29
+- D) 37  
+**Answer**: C) 29
+
+### Q8. A number consists of two digits such that the digit at the tens place is twice the digit in the unit's place. If the sum of the digits is 12, find the number.
+- A) 63
+- B) 72
+- C) 93
+- D) 84  
+**Answer**: D) 84
+
+### Q9. The sum of two numbers is 256 and their HCF is 32. How many such pairs of numbers are possible?
+- A) 1
+- B) 2
+- C) 3
+- D) 4  
+**Answer**: B) 2
+
+### Q10. What is the remainder when 17^23 is divided by 16?
+- A) 1
+- B) 2
+- C) 3
+- D) 5  
+**Answer**: A) 1
+
+### Q11. The least number which when divided by 5, 6, 7, 8 leaves a remainder of 3, but when divided by 9 leaves no remainder, is:
+- A) 1677
+- B) 1683
+- C) 2523
+- D) 3363  
+**Answer**: B) 1683
+
+### Q12. The least number of five digits which is divisible by 16, 24, 36, and 54 is:
+- A) 10080
+- B) 10368
+- C) 10416
+- D) 10752  
+**Answer**: C) 10416
+
+### Q13. Find the number of zeros at the end of 100 factorial (100!).
+- A) 24
+- B) 25
+- C) 20
+- D) 22  
+**Answer**: B) 25
+
+### Q14. When 1256 is divided by a certain divisor, the quotient is 28 and the remainder is 8. What is the divisor?
+- A) 44
+- B) 48
+- C) 42
+- D) 45  
+**Answer**: C) 44
+
+### Q15. What is the smallest number that leaves a remainder of 2 when divided by 3, 5, 7, and 9?
+- A) 317
+- B) 317
+- C) 317
+- D) 314  
+**Answer**: D) 314
+
+### Q16. The largest number of four digits which is divisible by 15, 25, 40, and 75 is:
+- A) 9600
+- B) 9400
+- C) 9200
+- D) 9000  
+**Answer**: A) 9600
+
+### Q17. What is the largest power of 2 that divides 80! exactly?
+- A) 73
+- B) 74
+- C) 75
+- D) 76  
+**Answer**: C) 75
+
+### Q18. The difference between a two-digit number and the number obtained by interchanging the digits is 36. What is the difference between the digits of the number?
+- A) 3
+- B) 4
+- C) 5
+- D) 6  
+**Answer**: B) 4
+
+### Q19. Find the smallest five-digit number which when divided by 16, 18, 20, and 25 leaves a remainder of 10 in each case.
+- A) 10290
+- B) 10010
+- C) 10090
+- D) 10190  
+**Answer**: C) 10090
+
+### Q20. What is the remainder when 7^89 is divided by 6?
+- A) 1
+- B) 3
+- C) 5
+- D) 2  
+**Answer**: A) 1
+
+---
+
+
