@@ -312,3 +312,303 @@ The average (or mean) of a set of numbers is the sum of all the numbers divided 
 **Answer**: A) 1  
 **Explanation**: By Fermat’s Little Theorem, 7 ≡ 1 (mod 6). Therefore, 7^89 ≡ 1^89 = 1 (mod 6).
 
+---
+
+Here are 20 medium-to-hard level ratio and proportion questions with detailed explanations in Markdown format:
+
+---
+
+### 1. **If two numbers are in the ratio 5:7 and their sum is 120, find the numbers.**
+
+The ratio is given as 5:7, and their sum is 120.  
+Let the numbers be 5x and 7x.
+
+\[
+5x + 7x = 120
+\]
+
+\[
+12x = 120
+\]
+
+\[
+x = 120 / 12 = 10
+\]
+
+Thus, the numbers are:
+
+\[
+5x = 5 \times 10 = 50 \quad \text{and} \quad 7x = 7 \times 10 = 70
+\]
+
+**Answer:** a) 50, 70
+
+---
+
+### 2. **The salaries of A and B are in the ratio 2:3. If their total salary is $5000, what is the salary of A?**
+
+Let A's salary be 2x and B's salary be 3x. The total salary is $5000.
+
+\[
+2x + 3x = 5000
+\]
+
+\[
+5x = 5000
+\]
+
+\[
+x = 5000 / 5 = 1000
+\]
+
+Thus, A's salary is:
+
+\[
+2x = 2 \times 1000 = 2000
+\]
+
+**Answer:** c) $2000
+
+---
+
+### 3. **Two numbers are in the ratio 3:4. If 8 is added to each number, the ratio becomes 5:6. Find the original numbers.**
+
+Let the numbers be 3x and 4x. When 8 is added to each, the new ratio is 5:6.
+
+\[
+\frac{3x + 8}{4x + 8} = \frac{5}{6}
+\]
+
+Cross-multiply:
+
+\[
+6(3x + 8) = 5(4x + 8)
+\]
+
+\[
+18x + 48 = 20x + 40
+\]
+
+\[
+48 - 40 = 20x - 18x
+\]
+
+\[
+8 = 2x
+\]
+
+\[
+x = 4
+\]
+
+Thus, the original numbers are:
+
+\[
+3x = 3 \times 4 = 12 \quad \text{and} \quad 4x = 4 \times 4 = 16
+\]
+
+**Answer:** b) 12, 16
+
+---
+
+### 4. **The incomes of A, B, and C are in the ratio 7:9:12, and their expenses are in the ratio 8:9:15. If A saves $200, what is their income?**
+
+Let the incomes of A, B, and C be 7x, 9x, and 12x, respectively, and let the expenses be 8y, 9y, and 15y. The savings of A is given as:
+
+\[
+\text{Savings of A} = 7x - 8y = 200
+\]
+
+This is one equation. Additional data is required to find the exact income.
+
+**Answer:** Not enough information for a complete solution
+
+---
+
+### 5. **Two numbers are in the ratio 3:5. If the difference between them is 18, what are the numbers?**
+
+Let the numbers be 3x and 5x. The difference between them is 18.
+
+\[
+5x - 3x = 18
+\]
+
+\[
+2x = 18
+\]
+
+\[
+x = 9
+\]
+
+Thus, the numbers are:
+
+\[
+3x = 3 \times 9 = 27 \quad \text{and} \quad 5x = 5 \times 9 = 45
+\]
+
+**Answer:** a) 27, 45
+
+---
+
+### 6. **The ratio of A’s age to B’s age is 4:5. After 6 years, the ratio will become 5:6. What is B’s current age?**
+
+Let A’s age be 4x and B’s age be 5x. After 6 years, their ages will be in the ratio 5:6.
+
+\[
+\frac{4x + 6}{5x + 6} = \frac{5}{6}
+\]
+
+Cross-multiply:
+
+\[
+6(4x + 6) = 5(5x + 6)
+\]
+
+\[
+24x + 36 = 25x + 30
+\]
+
+\[
+36 - 30 = 25x - 24x
+\]
+
+\[
+x = 6
+\]
+
+Thus, B's current age is:
+
+\[
+5x = 5 \times 6 = 30
+\]
+
+**Answer:** b) 30
+
+---
+
+### 7. **A sum of money is divided between A, B, and C in the ratio 2:3:5. If C’s share is $300 more than A’s, find the total amount.**
+
+Let A’s share be 2x, B’s share be 3x, and C’s share be 5x. The difference between C’s and A’s share is $300.
+
+\[
+5x - 2x = 300
+\]
+
+\[
+3x = 300
+\]
+
+\[
+x = 100
+\]
+
+Thus, the total amount is:
+
+\[
+2x + 3x + 5x = 10x = 10 \times 100 = 1000
+\]
+
+**Answer:** c) $1000
+
+---
+
+### 8. **The ratio of A’s salary to B’s salary is 4:5. If A’s salary is increased by 20% and B’s by 10%, the ratio becomes 5:6. What is A’s salary?**
+
+Let A’s salary be 4x and B’s salary be 5x. After the increase:
+
+\[
+\frac{4x \times 1.20}{5x \times 1.10} = \frac{5}{6}
+\]
+
+\[
+\frac{4.8x}{5.5x} = \frac{5}{6}
+\]
+
+Cross-multiply:
+
+\[
+6(4.8x) = 5(5.5x)
+\]
+
+\[
+28.8x = 27.5x
+\]
+
+This implies a contradiction. Check the input data.
+
+---
+
+### 9. **If the ratio of the present ages of A and B is 5:7, and after 6 years, the ratio becomes 3:4, find their present ages.**
+
+Let A’s age be 5x and B’s age be 7x. After 6 years:
+
+\[
+\frac{5x + 6}{7x + 6} = \frac{3}{4}
+\]
+
+Cross-multiply:
+
+\[
+4(5x + 6) = 3(7x + 6)
+\]
+
+\[
+20x + 24 = 21x + 18
+\]
+
+\[
+24 - 18 = 21x - 20x
+\]
+
+\[
+x = 6
+\]
+
+Thus, A’s and B’s current ages are:
+
+\[
+5x = 30 \quad \text{and} \quad 7x = 42
+\]
+
+**Answer:** d) 30, 42
+
+---
+
+### 10. **The weights of two people are in the ratio 4:5. If both of them gain 5 kg, the ratio becomes 5:6. Find their original weights.**
+
+Let the original weights be 4x and 5x. After both gain 5 kg:
+
+\[
+\frac{4x + 5}{5x + 5} = \frac{5}{6}
+\]
+
+Cross-multiply:
+
+\[
+6(4x + 5) = 5(5x + 5)
+\]
+
+\[
+24x + 30 = 25x + 25
+\]
+
+\[
+30 - 25 = 25x - 24x
+\]
+
+\[
+x = 5
+\]
+
+Thus, their original weights are:
+
+\[
+4x = 4 \times 5 = 20 \quad \text{and} \quad 5x = 5 \times 5 = 25
+\]
+
+**Answer:** a) 20, 25
+
+---
+
+
