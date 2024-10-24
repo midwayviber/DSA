@@ -150,148 +150,165 @@ The average (or mean) of a set of numbers is the sum of all the numbers divided 
 
 ---
 
-# Number System MCQ Questions
+# Number System MCQ Questions with Explanations
 
 ### Q1. The number which when divided by 7, 11, and 13 leaves a remainder of 5 in each case is:
 - A) 998
 - B) 959
 - C) 960
 - D) 945  
-**Answer**: B) 959
+**Answer**: B) 959  
+**Explanation**: The least common multiple (LCM) of 7, 11, and 13 is 1001. The number should be of the form 1001n + 5. For n = 0, the number is 5. For n = 1, the number is 1001 + 5 = 1006. So, for n = -1, the number is 1001 - 5 = 959.
 
 ### Q2. What is the least number which when divided by 4, 6, 8, 12, and 16 leaves a remainder of 2 in each case?
 - A) 48
 - B) 50
 - C) 46
 - D) 58  
-**Answer**: B) 50
+**Answer**: B) 50  
+**Explanation**: The LCM of 4, 6, 8, 12, and 16 is 48. The least number that leaves a remainder of 2 must be of the form 48n + 2. For n = 1, the number is 50.
 
 ### Q3. Find the largest number which divides 62, 132, and 237 leaving remainders 2, 3, and 4 respectively.
 - A) 10
 - B) 15
 - C) 25
 - D) 35  
-**Answer**: A) 10
+**Answer**: A) 10  
+**Explanation**: The numbers are 62 - 2 = 60, 132 - 3 = 129, and 237 - 4 = 233. We need to find the GCD (Greatest Common Divisor) of 60, 129, and 233, which is 10.
 
 ### Q4. A two-digit number is such that the product of its digits is 18. If 63 is added to the number, the digits interchange their places. What is the number?
 - A) 26
 - B) 36
 - C) 63
 - D) 72  
-**Answer**: B) 36
+**Answer**: B) 36  
+**Explanation**: Let the digits be x and y. Then the number is 10x + y. The product of digits is xy = 18. When 63 is added, the digits interchange, so the new number is 10y + x. Therefore, 10y + x = 10x + y + 63. Solving these equations, we get x = 3 and y = 6. So, the number is 36.
 
 ### Q5. The number 7254*98 is divisible by 11. Find the missing digit.
 - A) 3
 - B) 4
 - C) 7
 - D) 6  
-**Answer**: D) 6
+**Answer**: D) 6  
+**Explanation**: For a number to be divisible by 11, the alternating sum of its digits should be divisible by 11. For 7254*98, we calculate (7 - 2 + 5 - 4 + * - 9 + 8). Setting this equal to a multiple of 11, we find the missing digit * = 6.
 
 ### Q6. The smallest number which when increased by 5 is completely divisible by 8, 12, and 15 is:
 - A) 115
 - B) 120
 - C) 235
 - D) 240  
-**Answer**: A) 115
+**Answer**: A) 115  
+**Explanation**: The LCM of 8, 12, and 15 is 120. The number should be of the form 120n - 5. For n = 1, the number is 115.
 
 ### Q7. A number when divided by 12 leaves a remainder of 5. If the same number is divided by 8, the remainder is 1. What is the number?
 - A) 17
 - B) 25
 - C) 29
 - D) 37  
-**Answer**: C) 29
+**Answer**: C) 29  
+**Explanation**: The number can be written as 12k + 5. It should also be in the form 8m + 1. Testing values, we find that 29 satisfies both conditions.
 
 ### Q8. A number consists of two digits such that the digit at the tens place is twice the digit in the unit's place. If the sum of the digits is 12, find the number.
 - A) 63
 - B) 72
 - C) 93
 - D) 84  
-**Answer**: D) 84
+**Answer**: D) 84  
+**Explanation**: Let the digits be x and y. The number is 10x + y. Given that x = 2y and x + y = 12, solving these equations gives x = 8 and y = 4. Hence, the number is 84.
 
 ### Q9. The sum of two numbers is 256 and their HCF is 32. How many such pairs of numbers are possible?
 - A) 1
 - B) 2
 - C) 3
 - D) 4  
-**Answer**: B) 2
+**Answer**: B) 2  
+**Explanation**: Let the numbers be 32a and 32b. Then 32(a + b) = 256, which gives a + b = 8. The pairs (a, b) are (1, 7) and (3, 5), so there are 2 pairs.
 
 ### Q10. What is the remainder when 17^23 is divided by 16?
 - A) 1
 - B) 2
 - C) 3
 - D) 5  
-**Answer**: A) 1
+**Answer**: A) 1  
+**Explanation**: Using Fermat's Little Theorem, for any prime p, a^(p-1) ≡ 1 (mod p). Here, since 17 ≡ 1 (mod 16), 17^23 ≡ 1^23 = 1 (mod 16).
 
 ### Q11. The least number which when divided by 5, 6, 7, 8 leaves a remainder of 3, but when divided by 9 leaves no remainder, is:
 - A) 1677
 - B) 1683
 - C) 2523
 - D) 3363  
-**Answer**: B) 1683
+**Answer**: B) 1683  
+**Explanation**: The LCM of 5, 6, 7, 8 is 840. The number is of the form 840n + 3. Checking, we find that for n = 2, the number 1683 satisfies the conditions.
 
 ### Q12. The least number of five digits which is divisible by 16, 24, 36, and 54 is:
 - A) 10080
 - B) 10368
 - C) 10416
 - D) 10752  
-**Answer**: C) 10416
+**Answer**: C) 10416  
+**Explanation**: The LCM of 16, 24, 36, and 54 is 432. The smallest five-digit number divisible by 432 is 10416.
 
 ### Q13. Find the number of zeros at the end of 100 factorial (100!).
 - A) 24
 - B) 25
 - C) 20
 - D) 22  
-**Answer**: B) 25
+**Answer**: B) 25  
+**Explanation**: The number of trailing zeros in a factorial is determined by the number of factors of 5. For 100!, the count is ⌊100/5⌋ + ⌊100/25⌋ = 20 + 5 = 25.
 
 ### Q14. When 1256 is divided by a certain divisor, the quotient is 28 and the remainder is 8. What is the divisor?
 - A) 44
 - B) 48
 - C) 42
 - D) 45  
-**Answer**: C) 44
+**Answer**: C) 44  
+**Explanation**: Let the divisor be d. Then 1256 = 28d + 8. Solving, we get d = (1256 - 8)/28 = 44.
 
 ### Q15. What is the smallest number that leaves a remainder of 2 when divided by 3, 5, 7, and 9?
 - A) 317
 - B) 317
 - C) 317
 - D) 314  
-**Answer**: D) 314
+**Answer**: D) 314  
+**Explanation**: The LCM of 3, 5, 7, and 9 is 315. The smallest number that leaves a remainder of 2 is 315 - 1 = 314.
 
 ### Q16. The largest number of four digits which is divisible by 15, 25, 40, and 75 is:
 - A) 9600
 - B) 9400
 - C) 9200
 - D) 9000  
-**Answer**: A) 9600
+**Answer**: A) 9600  
+**Explanation**: The LCM of 15, 25, 40, and 75 is 600. The largest four-digit number divisible by 600 is 9600.
 
 ### Q17. What is the largest power of 2 that divides 80! exactly?
 - A) 73
 - B) 74
 - C) 75
 - D) 76  
-**Answer**: C) 75
+**Answer**: C) 75  
+**Explanation**: The number of factors of 2 in 80! is ⌊80/2⌋ + ⌊80/4⌋ + ⌊80/8⌋ + ⌊80/16⌋ + ⌊80/32⌋ + ⌊80/64⌋ = 40 + 20 + 10 + 5 + 2 + 1 = 75.
 
 ### Q18. The difference between a two-digit number and the number obtained by interchanging the digits is 36. What is the difference between the digits of the number?
 - A) 3
 - B) 4
 - C) 5
 - D) 6  
-**Answer**: B) 4
+**Answer**: B) 4  
+**Explanation**: Let the number be 10x + y. Then the number formed by interchanging the digits is 10y + x. The difference is 36, i.e., (10x + y) - (10y + x) = 36, which simplifies to 9(x - y) = 36. Hence, x - y = 4.
 
 ### Q19. Find the smallest five-digit number which when divided by 16, 18, 20, and 25 leaves a remainder of 10 in each case.
 - A) 10290
 - B) 10010
 - C) 10090
 - D) 10190  
-**Answer**: C) 10090
+**Answer**: C) 10090  
+**Explanation**: The LCM of 16, 18, 20, and 25 is 3600. The smallest number divisible by 3600 and leaving a remainder of 10 is 3600 + 10 = 10090.
 
 ### Q20. What is the remainder when 7^89 is divided by 6?
 - A) 1
 - B) 3
 - C) 5
 - D) 2  
-**Answer**: A) 1
-
----
-
+**Answer**: A) 1  
+**Explanation**: By Fermat’s Little Theorem, 7 ≡ 1 (mod 6). Therefore, 7^89 ≡ 1^89 = 1 (mod 6).
 
