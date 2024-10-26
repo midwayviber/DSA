@@ -220,3 +220,40 @@ int main() {
     return 0;
 }
 ```
+# `emplace_back` in STL Vectors
+
+## Definition
+The `emplace_back` function is a member function of `std::vector` that constructs an element in-place at the end of the vector, allowing for more efficient memory usage.
+
+## Syntax
+```cpp
+vector.emplace_back(args...);
+```
+- `args...`: Arguments to construct the element of the vector.
+
+## Example Usage
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> numbers;
+
+    // Using emplace_back to add elements directly
+    numbers.emplace_back(10);
+    numbers.emplace_back(20);
+    numbers.emplace_back(30);
+
+    // Displaying the elements in the vector
+    for (const auto& num : numbers) {
+        std::cout << num << " ";
+    }
+
+    return 0;
+}
+```
+
+### Output
+```
+10 20 30
+```
