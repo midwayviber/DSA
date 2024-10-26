@@ -4,6 +4,9 @@
 ## Definition
 A **pair** is a simple container in the C++ Standard Template Library (STL) that stores two heterogeneous values as a single unit. It is defined in the `<utility>` header and can be used to group two related values.
 
+![image](https://github.com/user-attachments/assets/6dad98e0-fe31-423e-abcb-8cb37ba0f1fb)
+
+
 ## Syntax
 ```cpp
 #include <utility>
