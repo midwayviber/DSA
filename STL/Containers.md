@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/ff7760bf-f0ea-44ac-960a-0d06ca0efbf5)
-# Pairs in C++
+# 1. Pairs in C++ :
 
 ## Definition
 A **pair** is a simple container in the C++ Standard Template Library (STL) that stores two heterogeneous values as a single unit. It is defined in the `<utility>` header and can be used to group two related values.
@@ -104,7 +104,7 @@ A **vector** is a sequence container in the C++ Standard Template Library (STL) 
 std::vector<Type> vectorName;
 ```
 
-## Commonly Used Vector Functions
+## 2. Commonly Used Vector Functions :
 
 ### 1. Element Access
 - `at(index)`: Accesses the element at the specified index with bounds checking.
@@ -132,7 +132,7 @@ std::vector<Type> vectorName;
 - `sort()`: Sorts the elements of the vector.
 - `reverse()`: Reverses the order of the elements.
 
-## Example Usage
+## Example Usage :
 
 ### 1. Creating and Using a Vector
 ```cpp
@@ -220,7 +220,7 @@ int main() {
     return 0;
 }
 ```
-# `emplace_back` in STL Vectors
+# 3. `emplace_back` in STL Vectors
 
 ## Definition
 The `emplace_back` function is a member function of `std::vector` that constructs an element in-place at the end of the vector, allowing for more efficient memory usage.
@@ -258,7 +258,7 @@ int main() {
 10 20 30
 ```
 
-# Copy Constructor in STL Vectors
+# 4. Copy Constructor in STL Vectors
 
 ## Definition
 The statement `vector<int> v2(v1)` uses the copy constructor of `std::vector`. It creates a new vector `v2` that is a copy of the existing vector `v1`. This means that `v2` will have the same elements as `v1`, but they will occupy a different memory location.
@@ -294,4 +294,59 @@ int main() {
 ### Output
 ```
 Elements in v2: 1 2 3 4 5 
+```
+
+# 5. Iterators in STL Vectors
+
+## Definition
+Iterators are objects that enable traversal through the elements of a container, such as a vector. They act like pointers and can be used to access and manipulate the elements within the container.
+
+## Types of Iterators
+- **Input Iterator**: Reads elements from a container.
+- **Output Iterator**: Writes elements to a container.
+- **Forward Iterator**: Can read and write and can only move forward.
+- **Bidirectional Iterator**: Can move both forward and backward.
+- **Random Access Iterator**: Can access elements using an index (like pointers).
+
+## Key Functions for Vectors
+- `begin()`: Returns an iterator pointing to the first element of the vector.
+- `end()`: Returns an iterator pointing to one past the last element of the vector (not dereferenceable).
+- `rbegin()`: Returns a reverse iterator pointing to the last element of the vector.
+- `rend()`: Returns a reverse iterator pointing to one before the first element of the vector.
+
+### How Iterators Point to Memory
+Iterators in C++ STL are implemented as objects that hold a pointer to the elements of the container. When you perform operations like incrementing or dereferencing the iterator, it accesses the underlying memory where the elements are stored.
+
+### Example Usage
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> myVector = {10, 20, 30, 40, 50};
+
+    // Using normal iterators
+    std::cout << "Using normal iterators:\n";
+    for (auto it = myVector.begin(); it != myVector.end(); ++it) {
+        std::cout << *it << " "; // Dereferencing the iterator
+    }
+    std::cout << std::endl;
+
+    // Using reverse iterators
+    std::cout << "Using reverse iterators:\n";
+    for (auto rit = myVector.rbegin(); rit != myVector.rend(); ++rit) {
+        std::cout << *rit << " "; // Dereferencing the reverse iterator
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```
+
+### Output
+```
+Using normal iterators:
+10 20 30 40 50 
+Using reverse iterators:
+50 40 30 20 10 
 ```
