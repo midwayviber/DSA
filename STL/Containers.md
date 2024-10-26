@@ -301,6 +301,25 @@ Elements in v2: 1 2 3 4 5
 ## Definition
 Iterators are objects that enable traversal through the elements of a container, such as a vector. They act like pointers and can be used to access and manipulate the elements within the container.
 
+### Flowchart Representation of Vector Iterators :
+
+```markdown
+flowchart TD
+    A[10] -->|next| B[20]
+    B -->|next| C[30]
+    C -->|next| D[40]
+    D -->|end| E[end]
+    E --> F[rend]
+    F -->|previous| D
+    F -->|previous| C
+    F -->|previous| B
+    F -->|previous| A
+    G[rbegin] --> D
+    G --> C
+    G --> B
+    G --> A
+```
+
 ## Types of Iterators
 - **Input Iterator**: Reads elements from a container.
 - **Output Iterator**: Writes elements to a container.
