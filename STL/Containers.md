@@ -257,3 +257,41 @@ int main() {
 ```
 10 20 30
 ```
+
+# Copy Constructor in STL Vectors
+
+## Definition
+The statement `vector<int> v2(v1)` uses the copy constructor of `std::vector`. It creates a new vector `v2` that is a copy of the existing vector `v1`. This means that `v2` will have the same elements as `v1`, but they will occupy a different memory location.
+
+## Syntax
+```cpp
+vector<Type> newVector(existingVector);
+```
+- `existingVector`: The vector from which elements are copied.
+
+## Example Usage
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    // Original vector
+    std::vector<int> v1 = {1, 2, 3, 4, 5};
+
+    // Copying v1 to create v2
+    std::vector<int> v2(v1);
+
+    // Displaying the elements of v2
+    std::cout << "Elements in v2: ";
+    for (const auto& num : v2) {
+        std::cout << num << " ";
+    }
+
+    return 0;
+}
+```
+
+### Output
+```
+Elements in v2: 1 2 3 4 5 
+```
