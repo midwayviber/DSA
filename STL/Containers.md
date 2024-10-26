@@ -303,8 +303,7 @@ Iterators are objects that enable traversal through the elements of a container,
 
 ### Flowchart Representation of Vector Iterators :
 
-```markdown
-flowchart TD
+```flowchart TD
     A[10] -->|next| B[20]
     B -->|next| C[30]
     C -->|next| D[40]
