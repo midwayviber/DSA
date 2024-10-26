@@ -303,21 +303,24 @@ Iterators are objects that enable traversal through the elements of a container,
 
 ### Flowchart Representation of Vector Iterators :
 
-```flowchart TD
-    A[10] -->|next| B[20]
-    B -->|next| C[30]
-    C -->|next| D[40]
-    D -->|end| E[end]
-    E --> F[rend]
-    F -->|previous| D
-    F -->|previous| C
-    F -->|previous| B
-    F -->|previous| A
-    G[rbegin] --> D
-    G --> C
-    G --> B
-    G --> A
-```
++----------------+       +----------------+       +----------------+       +----------------+
+|     begin()    |----->|        10      |----->|        20      |----->|        30      |
++----------------+       +----------------+       +----------------+       +----------------+
+                                 |                                 |                                 |
+                                 |                                 |                                 |
+                                 |                                 |                                 |
+                                 |                                 |                                 |
+                                 v                                 v                                 v
+                             +----------------+       +----------------+       +----------------+
+                             |        40      |<-----|        end()   |<-----|      rend()     |
+                             +----------------+       +----------------+       +----------------+
+                             ^                                 ^
+                             |                                 |
+                             |                                 |
+                             +---------------------------------+
+                             |          rbegin()               |
+                             +---------------------------------+
+
 
 ## Types of Iterators
 - **Input Iterator**: Reads elements from a container.
