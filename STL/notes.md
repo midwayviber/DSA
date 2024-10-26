@@ -9,7 +9,8 @@ graph TD;
     A[STL]
     A --> B[Algorithms]
     A --> C[Containers]
-    A --> D[Iterators]
+    A --> D[Functions]
+    A --> E[Iterators]
 ```
 
 ## Definitions
