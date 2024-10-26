@@ -303,6 +303,8 @@ Iterators are objects that enable traversal through the elements of a container,
 
 ### Flowchart Representation of Vector Iterators :
 
+
+```markdown
 +----------------+       +----------------+       +----------------+       +----------------+
 |     begin()    |----->|        10      |----->|        20      |----->|        30      |
 +----------------+       +----------------+       +----------------+       +----------------+
@@ -320,7 +322,7 @@ Iterators are objects that enable traversal through the elements of a container,
                              +---------------------------------+
                              |          rbegin()               |
                              +---------------------------------+
-
+```
 
 ## Types of Iterators
 - **Input Iterator**: Reads elements from a container.
