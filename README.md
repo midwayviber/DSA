@@ -1,5 +1,7 @@
 # C++ Interview Preparation Guide
 
+![image](https://github.com/user-attachments/assets/f53a27e1-eb81-4389-b838-ea7520fac502)
+
 ## 1. Object-Oriented Programming (OOP)
 
 ### Easy
