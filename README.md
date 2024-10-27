@@ -36,3 +36,62 @@
 - Red Hat and CCNA certifications are *not required*.
 - There’s a *free certification option*:
   - For example, if you don’t need AWS certification, you can opt for a CCNA certification as a free alternative.
+
+
+
+
+
+---
+
+
+# Advanced Coding Test Preparation: C++ STL, Hash Maps, and Dictionaries
+
+### 1. Vectors (`std::vector`)
+- **Dynamic Resizing**: Functions like `push_back`, `pop_back`, and `insert`.
+- **Access Operations**: `at`, `front`, `back`, and iterators.
+- **Memory Management**: `resize`, `capacity`, `reserve`.
+
+### 2. Unordered Maps (`std::unordered_map`)
+- **Key-Value Operations**: Insertion, deletion, access with functions like `find`, `count`, and `erase`.
+- **Hashing and Load Factor**: Basics of handling hash collisions and managing `load_factor`.
+
+### 3. Maps (`std::map`)
+- **Ordered Key-Value Storage**: Insert, delete, and lookup operations.
+- **Custom Comparators**: Sorting based on custom rules.
+- **Range-based Operations**: `find`, `lower_bound`, and `upper_bound`.
+
+### 4. Sets (`std::set` and `std::multiset`)
+- **Element Storage**: Ordered elements in `set`, duplicate handling in `multiset`.
+- **Basic Operations**: `insert`, `erase`, `find`, and `count`.
+- **Range Queries**: Iterators for range-based access.
+
+### 5. Algorithm Library Functions
+- **Sorting and Searching**: `sort`, `binary_search`, `lower_bound`, and `upper_bound`.
+- **Min/Max Operations**: `min`, `max`, `min_element`, and `max_element`.
+- **Other Common Algorithms**: `accumulate`, `find`, `reverse`, and `count`.
+
+### 6. Pairs (`std::pair`)
+- **Pair Creation**: Using `make_pair` and direct initialization.
+- **Accessing Elements**: `first` and `second` members, usage in maps and sets.
+
+### 7. Iterators
+- **Basic Usage**: Using `begin`, `end`, `rbegin`, `rend` for containers.
+- **Iterator Types**: Iterators in `vector`, `map`, and other containers.
+
+---
+
+## Additional Key Areas
+
+### 8. String Handling in STL
+- **Basic String Operations**: Concatenation, `substr`, `find`, and `replace`.
+- **Special Constants**: Usage of `string::npos` in finding and searching.
+
+### 9. Emplace Functions
+- **Efficient Insertion**: `emplace` for `vector` and `map` for in-place construction.
+
+### 10. Complexity of Operations
+- **Time Complexities**: Knowledge of complexities for insertion, deletion, and access operations in vectors, maps, sets, and unordered maps.
+
+---
+
+This list should cover essential C++ STL topics for your advanced coding test.
