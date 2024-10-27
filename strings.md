@@ -390,3 +390,129 @@
 **Answer:** B
 
 ---
+
+Here are 10 advanced-level multiple-choice questions (MCQs) related to strings in C++, formatted in Markdown, focusing on challenging concepts that may come up in coding interviews:
+
+### 1. Which algorithm can be used to efficiently search for a substring in a string?
+
+```markdown
+- A) Linear Search
+- B) KMP (Knuth-Morris-Pratt)
+- C) Binary Search
+- D) Brute Force
+```
+**Answer:** B
+
+---
+
+### 2. What is the time complexity of the `std::string::find()` method in the worst case?
+
+```markdown
+- A) O(n)
+- B) O(n^2)
+- C) O(log n)
+- D) O(1)
+```
+**Answer:** A
+
+---
+
+### 3. How can you check if two strings are rotations of each other?
+
+```markdown
+- A) By sorting both strings and comparing them
+- B) By concatenating one string with itself and checking for the other
+- C) By checking if their lengths are equal
+- D) Both A and B
+```
+**Answer:** B
+
+---
+
+### 4. Which of the following is a method to split a string into substrings based on a delimiter in C++?
+
+```markdown
+- A) `s.split(delimiter);`
+- B) `std::istringstream`
+- C) `s.tokenize(delimiter);`
+- D) `s.substr(delimiter);`
+```
+**Answer:** B
+
+---
+
+### 5. What is the output of the following code snippet?
+   ```cpp
+   string str = "abc";
+   str[1] = 'x';
+   cout << str;
+   ```
+```markdown
+- A) `abc`
+- B) `axc`
+- C) `Error`
+- D) `x`
+```
+**Answer:** B
+
+---
+
+### 6. Which STL function can be used to remove duplicate characters from a string?
+
+```markdown
+- A) `unique()`
+- B) `distinct()`
+- C) `remove_duplicates()`
+- D) `erase_duplicates()`
+```
+**Answer:** A
+
+---
+
+### 7. How do you reverse a string in place?
+
+```markdown
+- A) `reverse(s.begin(), s.end());`
+- B) `s.reverse();`
+- C) `s = reverse(s);`
+- D) `for(int i = 0; i < s.length()/2; i++) swap(s[i], s[s.length()-1-i]);`
+```
+**Answer:** D
+
+---
+
+### 8. Which of the following can be used to convert a string to a float in C++?
+
+```markdown
+- A) `to_float()`
+- B) `stof()`
+- C) `convert_to_float()`
+- D) `float(st);`
+```
+**Answer:** B
+
+---
+
+### 9. What is the purpose of the `std::string::replace()` method?
+
+```markdown
+- A) To replace a substring with another string
+- B) To replace all occurrences of a character
+- C) To replace characters at specific positions
+- D) All of the above
+```
+**Answer:** D
+
+---
+
+### 10. Which of the following statements about `std::string` and memory is true?
+
+```markdown
+- A) `std::string` is always allocated on the stack.
+- B) `std::string` handles its own memory allocation and deallocation.
+- C) `std::string` cannot be resized after initialization.
+- D) `std::string` always uses a fixed size buffer.
+```
+**Answer:** B
+
+---
