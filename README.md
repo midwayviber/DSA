@@ -116,3 +116,49 @@
   - Reverse a linked list
   - Merge two sorted linked lists
   - Remove duplicates from sorted linked list
+
+
+# Beginner-Level Problems on Basic Data Structures
+
+## 1. Arrays
+- **Problem 1:** Insert an element at a specific position in an array.
+- **Problem 2:** Delete an element from a specific position in an array.
+- **Problem 3:** Find the maximum element in an array.
+- **Problem 4:** Count the number of even and odd elements in an array.
+- **Problem 5:** Reverse the elements in an array.
+
+---
+
+## 2. Strings
+- **Problem 1:** Count the vowels and consonants in a string.
+- **Problem 2:** Reverse a string.
+- **Problem 3:** Check if a string is a palindrome.
+- **Problem 4:** Find the frequency of a specific character in a string.
+- **Problem 5:** Convert a string to uppercase.
+
+---
+
+## 3. Stacks
+- **Problem 1:** Implement a stack and push elements into it.
+- **Problem 2:** Pop the top element from a stack.
+- **Problem 3:** Peek the top element without removing it.
+- **Problem 4:** Check if a stack is empty.
+- **Problem 5:** Find the size of the stack.
+
+---
+
+## 4. Queues
+- **Problem 1:** Implement a queue and enqueue elements into it.
+- **Problem 2:** Dequeue the front element from a queue.
+- **Problem 3:** Peek the front element without removing it.
+- **Problem 4:** Check if a queue is empty.
+- **Problem 5:** Find the size of the queue.
+
+---
+
+## 5. Linked Lists
+- **Problem 1:** Insert a node at the beginning of a linked list.
+- **Problem 2:** Insert a node at the end of a linked list.
+- **Problem 3:** Delete the first node in a linked list.
+- **Problem 4:** Delete the last node in a linked list.
+- **Problem 5:** Traverse and print all elements in a linked list.
